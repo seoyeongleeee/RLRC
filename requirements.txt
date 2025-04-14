@@ -1,5 +1,7 @@
+streamlit
 fastapi
 uvicorn
 tensorflow
 numpy
 soundfile
+requests
