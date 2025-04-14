@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 app = FastAPI()
-path_sample_h5 = r"C:\2024\1. Research\1_번째연구_Dysarthria\6_journal\3. 웹기반_실시간음성분류\fastapi\multiscale_residual_cnn.h5"
+path_sample_h5 = "multiscale_residual_cnn.h5"
 model = tf.keras.models.load_model(path_sample_h5)
 
 
