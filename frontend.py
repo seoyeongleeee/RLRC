@@ -23,4 +23,4 @@ if uploaded_file is not None:
         final_result = "정상" if result['normal'] > result['stroke'] else "뇌졸중"
         st.markdown(f"### 🔍 최종 판별: **{final_result}** 입니다.")
 
-        # test redeploy
+        # Streamlit redeploy test
