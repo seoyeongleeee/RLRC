@@ -1,7 +1,5 @@
 streamlit
-fastapi
-uvicorn
 tensorflow
 numpy
+librosa
 soundfile
-requests
